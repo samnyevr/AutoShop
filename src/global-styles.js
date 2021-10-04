@@ -15,5 +15,16 @@ export const GlobalStyles = createGlobalStyle`
         color: white;
         font-size: 16px;
     }
+
+    html {
+        --color-text: white;
+        --color-background: #1A1B1D;
+        --color-primary: #990000;
+        --color-secondary: #FFFF01;
+        --color-accent: #F2F2F2;
+        --size-large: 5em;
+        --size-medium: 2.5em;
+        --size-small: 1.15em;
+    }
     
 `;
