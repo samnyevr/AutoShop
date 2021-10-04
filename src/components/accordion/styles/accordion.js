@@ -1,6 +1,9 @@
 import styled from "styled-components"
 
-export const Container = styled.section``;
+export const Container = styled.section`
+    display: flex;  
+    flex-wrap: wrap;
+`;
 
 export const Item = styled.div``;
 

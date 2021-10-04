@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
-    position: absolute;
+    position: sticky;
     display: flex;
     justify-content: space-around;
     max-width: 1000px;
