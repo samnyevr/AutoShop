@@ -10,6 +10,8 @@ export const Logo = styled.img`
     position: fixed;
     z-index: 4;
     margin: 3em 0 0 3em;
+
+    display: none;  
 `;
 
 export const Text = styled.li`
