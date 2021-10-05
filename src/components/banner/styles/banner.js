@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-image: linear-gradient(black, #1A1B1D, black);
 `;

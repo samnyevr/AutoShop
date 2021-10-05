@@ -6,7 +6,8 @@ import {
     Title,
     SubTitle,
     Text,
-    CTA
+    CTA,
+    ButtonWrap
 
 } from "./styles/jumbotron"
 
@@ -32,5 +33,9 @@ Jumbotron.Text = function JumbotronText({children, ...restProps}) {
 
 Jumbotron.CTA = function JumbotronCTA({children, ...restProps}) {
     return <CTA {...restProps}>{children}</CTA>
+}
+
+Jumbotron.ButtonWrap = function JumbotronButtonWrap({children, ...restProps}) {
+    return <ButtonWrap {...restProps}>{children}</ButtonWrap>
 }
 
