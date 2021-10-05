@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
         --color-secondary: #FFFF01;
         --color-accent: #F2F2F2;
         --size-large: 5rem;
-        --size-medium: 1.8rem;
+        --size-medium: 1.5rem;
         --size-regular: 1rem;
         --size-small: 0.8rem;
         --media-tablet: 688px;

@@ -6,7 +6,7 @@ import { FooterContainer, HeaderContainer, NavbarContainer, ReviewContainer, Sch
 const App = () => {
     return (
         <div>
-            
+            <NavbarContainer></NavbarContainer>
             <HeaderContainer></HeaderContainer>
             <ServicesContainer></ServicesContainer>
             <TiresContainer></TiresContainer>
