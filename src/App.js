@@ -1,7 +1,7 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
 
-import { HeaderContainer, NavbarContainer, ScheduleContainer, ServicesContainer, TiresContainer } from "./containers";
+import { HeaderContainer, NavbarContainer, ReviewContainer, ScheduleContainer, ServicesContainer, TiresContainer } from "./containers";
 
 const App = () => {
     return (
@@ -11,6 +11,7 @@ const App = () => {
             <ServicesContainer></ServicesContainer>
             <TiresContainer></TiresContainer>
             <ScheduleContainer></ScheduleContainer>
+            <ReviewContainer></ReviewContainer>
         </div>
     );
 }

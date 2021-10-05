@@ -5,3 +5,4 @@ export {default as Footer} from "./footer";
 export {default as Form} from "./form";
 export {default as Jumbotron} from "./jumbotron";
 export {default as Navbar} from "./navbar";
+export {default as Flex} from "./flex";
