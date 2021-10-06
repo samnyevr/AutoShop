@@ -97,7 +97,7 @@ export const ButtonWrap = styled.div`
 export const CTA = styled.button`
     background: #990000;
     color: white;
-    width: fit-content;
+    width: 250px;
     padding: 20px 70px;
     border: none;
     border: solid #990000 2px;

@@ -5,14 +5,17 @@ import {
     Item,
     Text,
     Image,
-    Modal
-
+    Modal,
+    Title
 } from "./styles/accordion"
 
 export default function Accordion({children, ...restProps}) {
     return <Container {...restProps}>{children}</Container>;
 };
 
+Accordion.Title = function AccordionTitle({children, ...restProps}) {
+    return <Title {...restProps}>{children}</Title>
+}
 
 Accordion.Item = function AccordionItem({children, ...restProps}) {
     return <Item {...restProps}>{children}</Item>;

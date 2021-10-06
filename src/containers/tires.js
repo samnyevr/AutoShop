@@ -3,7 +3,7 @@ import { Accordion } from "../components"
 
 export default function TiresContainer() {
     return <Accordion>
-        <div style={{flex: "0 0 100%"}}>Get the Best Tire for Your Vehicle</div>
+        <Accordion.Title >Get the Best Tire for Your Vehicle</Accordion.Title>
         <Accordion.Item>
             <Accordion.Image src="../images/Michelin.jpg"/>
             <Accordion.Modal>
@@ -18,6 +18,12 @@ export default function TiresContainer() {
         </Accordion.Item>
         <Accordion.Item>
             <Accordion.Image src="../images/Bridgestone.jpg"/>
+            <Accordion.Modal>
+                <Accordion.Text></Accordion.Text>
+            </Accordion.Modal>
+        </Accordion.Item>
+        <Accordion.Item>
+            <Accordion.Image />
             <Accordion.Modal>
                 <Accordion.Text></Accordion.Text>
             </Accordion.Modal>
