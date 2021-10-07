@@ -6,15 +6,20 @@ import {
     Text,
     Profile,
     Rating,
-    Name
+    Name,
+    Title
 } from "./styles/card"
 
 export default function Card({children, ...restProps}) {
     return <Container {...restProps}>{children}</Container>
 };
 
+Card.Title = function CardTitle({children, ...restProps}) {
+    return <Title {...restProps}>{children}</Title>;
+};
+
 Card.Item = function CardItem({children, ...restProps}) {
-    return <Item {...restProps}>{children}</Item>
+    return <Item {...restProps}>{children}</Item>;
 };
 
 Card.Text = function CardText({children, ...restProps}) {

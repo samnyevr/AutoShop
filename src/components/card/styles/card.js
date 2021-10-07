@@ -3,10 +3,19 @@ import styled from "styled-components";
 export const Container = styled.section`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    font-size: var(--size-regular);
+`;
+
+export const Title = styled.h1`
+    flex: 0 0 100%;
+    padding: 1em 0 1em 1em;
+
 `;
 
 export const Item = styled.figure`
+    margin: 1em;
     display: flex;
     justify-content: space-around;
     align-items: center;

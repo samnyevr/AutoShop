@@ -5,7 +5,7 @@ export const Background = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 98vw;
     height: 70vh;
     font-size: var(--size-regular);
 

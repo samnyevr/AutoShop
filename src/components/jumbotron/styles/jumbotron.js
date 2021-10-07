@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Background = styled.section`
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@ export const Background = styled.section`
 
     @media (min-width: 992px) {
         &:after {
-            background-position: 80% 80%;
+            background-position: 80% 70%;
             background-size: 50%;
         }
         font-size: var(--size-medium);

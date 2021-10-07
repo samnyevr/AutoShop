@@ -4,6 +4,7 @@ import {Card} from "../components";
 
 export default function CardContainer({children}) {
     return <Card>
+        <Card.Title>What our Customers Say</Card.Title>
         <Card.Item>
             <Card.Profile src="../images/tire.png"></Card.Profile>
             <Card.Text>

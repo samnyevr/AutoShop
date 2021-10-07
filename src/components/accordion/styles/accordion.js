@@ -12,6 +12,7 @@ export const Title = styled.h1`
     flex: 0 0 100%;
     font-size: 2em;
     margin-bottom: 2em;
+    text-align: center;
 `;
 
 export const Item = styled.div`
