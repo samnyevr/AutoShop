@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.section`
     position: relative;
     width: 100%;
+    
+    overflow: hidden;
     background-color: #212223;
     font-size: var(--size-small);
 
@@ -19,15 +21,15 @@ export const Title = styled.h1`
 
 export const Carousel = styled.div`
     display: flex;
-    overflow: auto;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory; 
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    width: 100%;
     position: relative;
-    left: ${offset => offset.offset}px;
+    transform: translateX(calc(10em * ${props => props.offset}));
+    transition: transform 0.5s;
+    width: 1000px;
 
     &::-webkit-scrollbar {
         display: none;

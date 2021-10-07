@@ -20,11 +20,11 @@ export default function ServicesContainer({children}) {
     const {height, width} = useWindowDimensions();
 
     const handleClick = (event) => {
-        if(event.target.classList.contains("left")) {
-            setOffSet(offset-100);
+        if(event.target.classList.contains("left") && offset > -8) {
+            setOffSet(offset-1);
         }
-        else if(event.target.classList.contains("right")){
-            setOffSet(offset+100);
+        else if(event.target.classList.contains("right") && offset < 0){
+            setOffSet(offset+1);
         }
     }
 
