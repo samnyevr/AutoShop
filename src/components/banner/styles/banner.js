@@ -29,7 +29,6 @@ export const Carousel = styled.div`
     position: relative;
     transform: translateX(calc(10em * ${props => props.offset}));
     transition: transform 0.5s;
-    width: 1000px;
 
     &::-webkit-scrollbar {
         display: none;

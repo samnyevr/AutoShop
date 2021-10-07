@@ -6,12 +6,11 @@ export const Container = styled.section`
 `;
 
 export const Logo = styled.img`
-    width: 100px;
+    width: 60px;
     position: fixed;
     z-index: 4;
     margin: 3em 0 0 3em;
 
-    display: none;  
 `;
 
 export const Text = styled.li`
@@ -32,7 +31,9 @@ export const List = styled.ul`
     z-index: 3;
     background: var(--color-background);
     opacity: 0.8;
-    display: none;
+    opacity: ${props => props.isOpen ? "0.8" : "0"};
+    display: ${props => props.isOpen ? "flex" : "none"};
+    transition: opacity 1s;
 
     @media (min-width: 992px) {
         width: 100vw;
@@ -41,15 +42,20 @@ export const List = styled.ul`
         margin-left: 0;
         align-items: center;
         padding-left: 150px;
-        margin-top: 2em;
+        padding-top: 4em;
+        display: flex;
+        opacity: 0.8;
     }
 `;
 
 export const Hamburger = styled.div`
     position: fixed;
     right: 30px;
-    top: 30px;
+    top: 50px;
     z-index: 3;
+    width: 30px;
+    height: 30px;
+    
 
     @media (min-width: 992px) {
         display: none;
@@ -61,16 +67,20 @@ export const Line = styled.div`
     width: 30px;
     height: 2px;
     background: white;
+    transition: transform .5s;
 
-    &:first-of-type {
-        
+    &:first-child {
+        transform: ${props => props.isOpen ? "rotate(45deg)" : ""};
+        top: ${props => props.isOpen ? "11px" : ""};
     }
 
-    &:nth-of-type(2) {
+    &:nth-child(2) {
         top: 5px;
+        display: ${props => props.isOpen ? "none" : "block"}
     }
 
-    &:last-of-type {
+    &:last-child {
         top: 10px;
+        transform: ${props => props.isOpen ? "rotate(-45deg)" : ""};
     }
 `;
