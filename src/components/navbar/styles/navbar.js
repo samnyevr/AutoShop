@@ -7,7 +7,7 @@ export const Container = styled.section`
 
 export const Logo = styled.img`
     width: 60px;
-    position: fixed;
+    position: absolute;
     z-index: 4;
     margin: 3em 0 0 3em;
 
@@ -31,8 +31,8 @@ export const List = styled.ul`
     z-index: 3;
     background: var(--color-background);
     opacity: 0.8;
-    opacity: ${props => props.isOpen ? "0.8" : "0"};
-    display: ${props => props.isOpen ? "flex" : "none"};
+    opacity: ${({isOpen}) => isOpen ? "0.8" : "0"};
+    display: ${({isOpen}) => isOpen ? "flex" : "none"};
     transition: opacity 1s;
 
     @media (min-width: 992px) {
@@ -70,17 +70,17 @@ export const Line = styled.div`
     transition: transform .5s;
 
     &:first-child {
-        transform: ${props => props.isOpen ? "rotate(45deg)" : ""};
-        top: ${props => props.isOpen ? "11px" : ""};
+        transform: ${({isOpen}) => isOpen ? "rotate(45deg)" : ""};
+        top: ${({isOpen}) => isOpen ? "11px" : ""};
     }
 
     &:nth-child(2) {
         top: 5px;
-        display: ${props => props.isOpen ? "none" : "block"}
+        display: ${({isOpen}) => isOpen ? "none" : "block"}
     }
 
     &:last-child {
         top: 10px;
-        transform: ${props => props.isOpen ? "rotate(-45deg)" : ""};
+        transform: ${({isOpen}) => isOpen ? "rotate(-45deg)" : ""};
     }
 `;

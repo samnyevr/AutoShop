@@ -5,27 +5,21 @@ export default function TiresContainer() {
     return <Accordion>
         <Accordion.Title >Get the Best Tire for Your Vehicle</Accordion.Title>
         <Accordion.Item>
-            <Accordion.Image src="../images/Michelin.jpg"/>
+        <Accordion.Image src="../images/Michelin.jpg"/>
             <Accordion.Modal>
-                <Accordion.Text></Accordion.Text>
+                <Accordion.Text>Michelin</Accordion.Text>
             </Accordion.Modal>
         </Accordion.Item>
         <Accordion.Item>
             <Accordion.Image src="../images/GoodYear.jpg"/>
             <Accordion.Modal>
-                <Accordion.Text></Accordion.Text>
+                <Accordion.Text>GoodYear</Accordion.Text>
             </Accordion.Modal>
         </Accordion.Item>
         <Accordion.Item>
             <Accordion.Image src="../images/Bridgestone.jpg"/>
             <Accordion.Modal>
-                <Accordion.Text></Accordion.Text>
-            </Accordion.Modal>
-        </Accordion.Item>
-        <Accordion.Item>
-            <Accordion.Image />
-            <Accordion.Modal>
-                <Accordion.Text></Accordion.Text>
+                <Accordion.Text>Bridgestone</Accordion.Text>
             </Accordion.Modal>
         </Accordion.Item>
     </Accordion>

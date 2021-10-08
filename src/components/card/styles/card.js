@@ -22,12 +22,18 @@ export const Item = styled.figure`
     flex-direction: column;
     width: 200px;
     height: 300px;
-    border: 1px solid white;
+    box-shadow: 
+        inset 5px 5px 5px rgba(0,0,0,0.2),
+        inset -5px -5px 15px rgba(255,255,255,0.1),
+        5px 5px 15px rgba(0,0,0,0.3),
+        -5px -5px 15px rgba(255,255,255,0.1)
+    ;
     border-radius: 15px;
 `;
 
 export const Text = styled.blockquote`
     text-align: center;
+    cursor: default;
 `;
 
 export const Profile = styled.img`
