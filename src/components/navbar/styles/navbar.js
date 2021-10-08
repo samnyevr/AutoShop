@@ -17,6 +17,10 @@ export const Text = styled.li`
     list-style: none;
     font-size: 2em;
     text-align: center;
+
+    & > .active {
+        border-bottom: 2px solid var(--color-primary);
+    }
 `;
 
 export const List = styled.ul`
