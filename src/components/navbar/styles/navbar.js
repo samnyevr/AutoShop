@@ -17,6 +17,7 @@ export const Text = styled.li`
     list-style: none;
     font-size: 2em;
     text-align: center;
+    cursor: pointer;
 
     & > .active {
         border-bottom: 2px solid var(--color-primary);
@@ -59,11 +60,14 @@ export const Hamburger = styled.div`
     z-index: 3;
     width: 30px;
     height: 30px;
-    
+    transition: top .5s
+    cursor: pointer;
 
     @media (min-width: 992px) {
         display: none;
     }
+
+    
 `;
 
 export const Line = styled.div`

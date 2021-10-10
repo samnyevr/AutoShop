@@ -14,7 +14,7 @@ export default function Navbar({children, ...restProps}) {
 };
 
 Navbar.Logo = function NavbarLogo({src, ...restProps}) {
-    return <Logo {...restProps} src={src}/>
+    return <Logo {...restProps} src={src} />
 }
 
 Navbar.List = function NavbarList({children, ...restProps}) {

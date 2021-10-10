@@ -9,6 +9,9 @@ import {
     Link,
     Input,
     Submit,
+    Success,
+    Failure,
+    Warning
 } from "./styles/form"
 
 export default function Form({children, ...restProps}) {
@@ -43,3 +46,14 @@ Form.Submit = function FormSubmit({children, ...restProps}) {
     return <Submit {...restProps}>{children}</Submit>;
 };
 
+Form.Success = function FormSuccess({children, ...restProps}) {
+    return <Success {...restProps}>{children}</Success>;
+};
+
+Form.Failure = function FormFailure({children, ...restProps}) {
+    return <Failure {...restProps}>{children}</Failure>;
+}
+
+Form.Warning = function FormWarning({children, ...restProps}) {
+    return <Warning {...restProps}>{children}</Warning>
+}

@@ -17,6 +17,11 @@ export const Title = styled.h1`
     font-size: 2em;
     margin: 1em 0;
     text-align: center;
+
+    @media (min-width: 992px) {
+        text-align: initial;
+        margin-left: 2em;
+    }
 `;
 
 export const Carousel = styled.div`
@@ -55,10 +60,11 @@ export const Image = styled.img`
 `;
 
 export const Text = styled.p`
-    text-aligned = center;
     font-size: 1.5em;
     text-align: center;
     width: 8em;
+
+
 `;
 
 

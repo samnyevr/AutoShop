@@ -6,7 +6,7 @@ export const Background = styled.section`
     align-items: center;
     justify-content: center;
     width: 98vw;
-    height: 70vh;
+    height: 90vh;
     font-size: var(--size-regular);
 
     &:before {
@@ -61,6 +61,10 @@ export const Input = styled.input`
     border: none;
     box-shadow: 1px 1px 5px white;
     margin-left: 0;
+
+    &:hover {
+        background-color: #f8f3f3;
+    }
 `;
 
 export const Submit = styled.button`
@@ -72,4 +76,26 @@ export const Submit = styled.button`
     border-radius: 15px;
     box-shadow: 1px 1px 5px white;
     margin-left: auto;
+    transition: background-color .2s;
+    transition: color .2s;
+
+    &:hover {
+        background-color: var(--color-primary);
+        color: white;
+        box-shadow: 1px 1px 5px black;
+    }
+`;
+
+export const Success = styled.div`
+    width: 100%;
+    color: lightgreen;
+`;
+
+export const Failure = styled.div`
+    width: 100%;
+    color: red;
+`;
+
+export const Warning = styled.div`
+    color: yellow;
 `;

@@ -12,16 +12,16 @@ export default function HeaderContainer({children}) {
                 <Jumbotron.Text>Call or stop by Today for free estimation</Jumbotron.Text>
                 <Jumbotron.ButtonWrap>
                     <Jumbotron.CTA>Call</Jumbotron.CTA>
-                    <Jumbotron.CTA>
-                        <Link 
-                            activeClass="active" 
-                            to="schedule"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                        >Appointment</Link>    
-                    </Jumbotron.CTA> 
+                    <Link 
+                        activeClass="active" 
+                        to="schedule"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <Jumbotron.CTA id="JumboAppointment">Appointment</Jumbotron.CTA> 
+                    </Link>
                 </Jumbotron.ButtonWrap>
             </Jumbotron.Container>
         </Jumbotron>

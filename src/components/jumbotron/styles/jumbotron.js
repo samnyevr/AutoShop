@@ -102,15 +102,23 @@ export const CTA = styled.button`
     border: none;
     border: solid #990000 2px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform .5s;
 
-    &:last-of-type {
+    &#JumboAppointment{
         margin-top: 50px;
         background: transparent;
 
         @media (min-width: 688px) {
             margin-top: 0px;
             margin-left: 50px;
+        }
+
+        
     }
+
+    &:hover {
+        transform: scale(1.05);
     }
 
 

@@ -8,8 +8,8 @@ const App = () => {
         <div>
             <NavbarContainer></NavbarContainer>
             <HeaderContainer></HeaderContainer>
-            <ServicesContainer></ServicesContainer>
             <TiresContainer></TiresContainer>
+            <ServicesContainer></ServicesContainer>
             <ScheduleContainer></ScheduleContainer>
             <ReviewContainer></ReviewContainer>
             <FooterContainer></FooterContainer>
