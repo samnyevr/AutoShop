@@ -12,7 +12,7 @@ export default function NavbarContainer({children}) {
 
     return (
         <Navbar>
-            <Navbar.Logo src="../images/tire.png"></Navbar.Logo>
+            <Navbar.Logo src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tire_lze3ck.png"></Navbar.Logo>
             <Navbar.List isOpen={isOpen}>
                 <Navbar.Text>
                     <Link 

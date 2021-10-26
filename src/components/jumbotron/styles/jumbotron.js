@@ -16,7 +16,7 @@ export const Background = styled.section`
         right: 0px;
         bottom: 0px;
         left: 0px;
-        background: url('../images/tire.png') 50% 50% no-repeat;
+        background: url('https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tire_lze3ck.png') 50% 50% no-repeat;
         background-size: 100%;
         opacity: 0.25;
         z-index: 1;

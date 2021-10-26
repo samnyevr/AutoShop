@@ -11,7 +11,7 @@ export const Background = styled.section`
 
     &:before {
         content:"";
-        background-image: url(../images/Mechanics_mod.jpg);
+        background-image: url(https://res.cloudinary.com/dsp40oobl/image/upload/v1635018216/Autoshop/Mechanics_mod_kcygvj.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;

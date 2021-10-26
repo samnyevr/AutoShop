@@ -40,39 +40,39 @@ export default function ServicesContainer({children}) {
             </Banner.RightArrowContainer>
             <Banner.Carousel offset={offset}>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/wheel_hdddyw.svg"></Banner.Image>
                     <Banner.Text>Quick Flat Repairs</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tire_cev0bq.svg"></Banner.Image>
                     <Banner.Text>Computerized Tire Balancing</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tire_1_rsqjfp.svg"></Banner.Image>
                     <Banner.Text>Tire Rotation</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tyre_ucx29w.svg"></Banner.Image>
                     <Banner.Text>Wheel Repair</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/wheel_hdddyw.svg"></Banner.Image>
                     <Banner.Text>Tire Inspection</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tire_cev0bq.svg"></Banner.Image>
                     <Banner.Text>Air and Pressure checks</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tire_1_rsqjfp.svg"></Banner.Image>
                     <Banner.Text>Tire Matching</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/tyre_ucx29w.svg"></Banner.Image>
                     <Banner.Text>Tire Mounting</Banner.Text>
                 </Banner.Item>
                 <Banner.Item>
-                    <Banner.Image src="../images/wheel.svg"></Banner.Image>
+                    <Banner.Image src="https://res.cloudinary.com/dsp40oobl/image/upload/v1635018214/Autoshop/wheel_hdddyw.svg"></Banner.Image>
                     <Banner.Text>New Tire Installation</Banner.Text>
                 </Banner.Item>
             </Banner.Carousel>
